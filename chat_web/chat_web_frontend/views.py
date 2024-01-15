@@ -3,7 +3,7 @@ from django.contrib.auth import login
 from .forms import SignUpForm
 # Create your views here.
 def frontpage(request):
-    return render(request, 'chat_web_frontend/frontpage.html')
+    return render(request, 'chat_web_frontend/frontpage.html');
 
 def homepage(request):
     return render(request,'chat_web_frontend/home.html')
